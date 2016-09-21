@@ -51,15 +51,7 @@ namespace new_exam
 
 
 
-            if ( n % 2 == 0)
-            {
-            Console.Write(new string('-', n * 3 - otmest));
-            Console.Write("*");
-            Console.Write(new string('*', width + otmest + 1 ));
-            Console.Write("*");
-            Console.WriteLine(new string('-', n * 5 - ((n * 3 - otmest) + 2 + width + otmest + 1 )));
-            }
-            else
+           
             {
                 Console.Write(new string('-', n * 3 - otmest));
                 Console.Write("*");
